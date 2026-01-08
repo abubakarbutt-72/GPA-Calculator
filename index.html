@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>GPA Calculator</h1>
+
+    <h2>Theory Subjects</h2>
+
+    <div class="subject">
+        <h3>Programming Fundamentals (3 CH)</h3>
+        <input type="number" placeholder="Mid (30)" id="pf_mid">
+        <input type="number" placeholder="Sessional (30)" id="pf_sess">
+        <input type="number" placeholder="Final (40)" id="pf_final">
+    </div>
+
+    <div class="subject">
+        <h3>ICT (2 CH)</h3>
+        <input type="number" placeholder="Mid (30)" id="ict_mid">
+        <input type="number" placeholder="Sessional (30)" id="ict_sess">
+        <input type="number" placeholder="Final (40)" id="ict_final">
+    </div>
+
+    <div class="subject">
+        <h3>Discrete Structures (3 CH)</h3>
+        <input type="number" placeholder="Mid (30)" id="ds_mid">
+        <input type="number" placeholder="Sessional (30)" id="ds_sess">
+        <input type="number" placeholder="Final (40)" id="ds_final">
+    </div>
+
+    <div class="subject">
+        <h3>English (3 CH)</h3>
+        <input type="number" placeholder="Mid (30)" id="eng_mid">
+        <input type="number" placeholder="Sessional (30)" id="eng_sess">
+        <input type="number" placeholder="Final (40)" id="eng_final">
+    </div>
+
+    <div class="subject">
+        <h3>Statistics (3 CH)</h3>
+        <input type="number" placeholder="Mid (30)" id="stat_mid">
+        <input type="number" placeholder="Sessional (30)" id="stat_sess">
+        <input type="number" placeholder="Final (40)" id="stat_final">
+    </div>
+
+    <div class="subject">
+        <h3>FQ (1 CH)</h3>
+        <input type="number" placeholder="Mid (30)" id="fq_mid">
+        <input type="number" placeholder="Sessional (30)" id="fq_sess">
+        <input type="number" placeholder="Final (40)" id="fq_final">
+    </div>
+
+    <h2>Lab Subjects</h2>
+
+    <div class="subject">
+        <h3>PF Lab (1 CH)</h3>
+        <input type="number" placeholder="Sessional (70)" id="pflab_sess">
+        <input type="number" placeholder="Final (30)" id="pflab_final">
+    </div>
+
+    <div class="subject">
+        <h3>ICT Lab (1 CH)</h3>
+        <input type="number" placeholder="Sessional (70)" id="ictlab_sess">
+        <input type="number" placeholder="Final (30)" id="ictlab_final">
+    </div>
+
+    <button onclick="calculateGPA()">Calculate GPA</button>
+
+    <h2 id="result"></h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
